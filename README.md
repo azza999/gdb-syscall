@@ -6,6 +6,5 @@ describe syscall which is being executed
 ```
 cd ~
 git clone https://github.com/azza999/gdb-syscall
-chmod 700 ./gdb-syscall/install.sh
-./gdb-syscall/install.sh
+echo "source ~/gdb-syscall/gdb-syscall.py" >> ~/.gdbinit
 ```
