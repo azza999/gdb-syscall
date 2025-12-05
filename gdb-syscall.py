@@ -1,6 +1,6 @@
 import gdb, csv, os
 
-CSV_PATH = os.getcwd() + "/gdb-syscall/syscall_table.csv"
+CSV_PATH = os.path.expanduser("~") + "/gdb-syscall/syscall_table.csv"
 
 def load_syscall_csv(path):
     table = {}
